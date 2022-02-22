@@ -271,11 +271,10 @@ p {background-color: #D3A6A3;}
   top: 18px;
   left: 10px;
   right: 10px;
-  bottom: 10px;
 }
 
 .wanmin-header-logo {
-  max-width: 200px;
+  max-width: 170px;
 }
 
 .wanmin-header-nav {
@@ -286,4 +285,15 @@ p {background-color: #D3A6A3;}
   inline-size: 400px;
 
 }
+.preamble p {
+  display: none;
+  display: inline;
+  display: inline-block;
+  display: block;
+}
+
+img {
+  height: auto;
+}
+
 
