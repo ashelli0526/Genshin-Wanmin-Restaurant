@@ -260,11 +260,18 @@ textarea {
     page-break-after: avoid;
   }
 }
+body {background-color: #E5D4D3;}
+p {background-color: #D3A6A3;}
 .wanmin-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #666;
+  background-color: #560C03;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
 
 .wanmin-header-logo {
@@ -274,5 +281,9 @@ textarea {
 .wanmin-header-nav {
   display: flex;
   gap: 20px;
+}
+.text-box{
+  inline-size: 400px;
+
 }
 
